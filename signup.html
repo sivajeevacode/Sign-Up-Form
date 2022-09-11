@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CoderSiva | Sign Up Page</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+
+    position:relative;
+    min-height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:-webkit-linear-gradient(20deg,#531cb3,#c33c54);
+}
+.container{
+    background:#fff;
+    width:300px;
+    padding:10px 20px;
+    overflow:hidden;
+    border-radius:8px;
+    box-shadow:1px 10px 15px 20px rgba(0,0,0,0.2);
+
+}
+h2{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#540d6e;
+    margin-bottom:5px;
+}
+.info{
+    position:relative;
+    padding:10px 10px 10px;
+    font-size:20px;
+    font-weight:bold;
+    bottom:10px;
+    
+
+}
+#pass,#mail{
+    display:block;
+    width:100%;
+    border:none;
+    outline:none;
+    padding:5px 40px 5px;
+    border:3px solid #004e98;
+    overflow:hidden;
+    font-size:20px;
+    border-radius:10px;
+}
+.label1,.label2{
+    margin-bottom:5px;
+    color:#004e98;
+    letter-spacing:1px;
+    font-weight:bold;
+    text-transform:uppercase;
+
+
+}
+#pass,#mail:focus{
+    color:#3a6ea5;
+    letter-spacing:1px;
+
+}
+.check{
+     
+    padding:0 10px;
+    font-size:18px;
+    color:#004e98;
+    font-weight:bold;
+
+}
+.check a{
+    text-decoration:none;
+    color:#004e98;
+}
+.btn-1{
+    display:flex;
+    position:relative;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+}
+.other{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+    
+
+}
+.btn-2 button{
+    text-align:center;
+    margin-left:10px;
+    padding:5px 15px 5px;
+    width:100%;
+}
+.btn-3 button{
+    text-align:center;
+    padding:5px 15px 5px;
+    overflow:hidden;
+    margin-left:20px;
+    width:80%;
+}
+button{
+    width:90%;
+    padding:10px 20px 10px;
+    border-radius:15px;
+    outline:none;
+    border:none;
+    background:#004e98;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#540d6e;
+    letter-spacing:1px;
+}
+
+</style>
+<body>
+    
+<div class="container">
+    <h2>Sign Up</h2>
+    <div class="info">
+        <div class="label1">
+        <label for="mail">E-Mail</label>
+    </div>
+        <input type="text"id="mail"name="mail">
+    </div>
+    <div class="info">
+        <div class="label2">
+        <label for="pass">Password</label>
+    </div>
+        <input type="password"id="pass"name="pass">
+    </div>
+    <div class="check">
+        <input type="checkbox"id="box"name="name">
+        <label for="check">Remember Me</label>
+    </div>
+    
+    <div class="btn-1">
+        <button>Sign In</button>
+    </div>
+    <div class="other">
+    <div class="btn-2">
+        <button>Google</button>
+    </div>
+    <div class="btn-3">
+        <button>Facebook</button>
+    </div>
+</div>
+   
+</div>
+
+
+
+
+</body>
+</html>
